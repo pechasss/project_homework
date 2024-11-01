@@ -17,8 +17,8 @@
 # ex2
 
 
-
-# lst = [0, 1, 2, 4, 8]
+#
+# lst = []
 # #
 # if lst:
 #     sumOfNumbers= sum(lst[i] for i in range(0, len(lst), 2))
@@ -26,3 +26,15 @@
 # else:
 #     result = 0
 # print(result)
+
+
+# ex 3
+# import random
+#
+# n = random.randint(3, 10)
+#
+# random_list = [random.randint(0, 10) for _ in range(n)]
+# print("First list:", random_list)
+#
+# newList = [random_list[0], random_list[2], random_list[-2]]
+# print("New list:", newList)
